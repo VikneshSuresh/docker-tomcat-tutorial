@@ -3,5 +3,5 @@ LABEL maintainer="deepak@softwareyoga.com"
 
 ADD sample.war /usr/local/tomcat/webapps/
 
-EXPOSE 6120
+EXPOSE 8084
 CMD ["catalina.sh", "run"]
